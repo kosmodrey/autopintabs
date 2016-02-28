@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Auto Pin Tabs",
+  "version": "1.0.0",
+  "author": "Kosmodrey <kosmodrey@yandex.ru>",
+  "description": "Automatically pin tabs to reduce space.",
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "64": "icons/64.png"
+  },
+  "browser_action": {
+    "default_title": "Auto Pin Tabs",
+    "default_icon": "icons/19.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": ["tabs"]
+}
